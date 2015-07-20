@@ -138,6 +138,7 @@ function field_one_callback() {
     
 	foreach( $array_keys as $key ){	
 	
+		if( !empty($setting) )
 		$checked = ( in_array( $key, $setting ) ) ? $checked = 'checked="checked"' : $checked = '' ;
 
 		echo "<input type='checkbox' $checked name='reactor-plugin-block[]' value='$key' />" . $plugins[$key]['Title'] . '</br>';
