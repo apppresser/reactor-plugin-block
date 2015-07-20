@@ -1,10 +1,10 @@
 <?php
 /*
 Plugin Name: Reactor Plugin Block
-Description: Blocks plugins from loading in AppPreser app.
-Author: AppPresser Team
+Description: Blocks plugins from loading in Reactor app.
+Author: Reactor Team
 Version: 1.0
-Author URI: http://apppresser.com
+Author URI: http://reactorapps.io
 */
 
 class ReactorPluginBlock {
