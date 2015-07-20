@@ -95,7 +95,7 @@ function appp_filter_exclude_plugins( $exclude = array() ) {
 	// Add the name of the main plugin php file that you want to exclude here, to the array, and return.
 	// Below are some example ones. Feel free to delete these and add your own.
 		
-		$exclude = maybe_unserialize( get_option( 'reactor-plugin-block' ) );
+	$exclude = ( maybe_unserialize( get_option( 'reactor-plugin-block' ) ) ) ? maybe_unserialize( get_option( 'reactor-plugin-block' ) ) : array();
 
 	return $exclude;
 }
